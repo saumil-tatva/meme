@@ -1,0 +1,54 @@
+@{
+  ViewData["Title"] = "Patient Site";
+}
+<link rel="stylesheet" href="~/css/Patient_site.css" asp-append-version="true" />
+
+<div class="container-fluid">
+  <div class="demo-wrap">
+    <img class="demo-bg" src="~/SRS Screen Shorts/11116016_415.jpg" alt="">
+    <div class="demo-content">
+      <div style="height: 100vh">
+        
+        <div class="dmode">
+        <button type="button" onclick="toggleDarkTheme()" class=" mt-4 mx-4"
+        style="border-radius: 17px; border-color: aqua"
+        id="colorButton">
+        <i id="moon" class="bi bi-moon text-info fs-4"></i>
+        <i id="sun" class="bi bi-sun text-info fs-4 d-none"></i></button>
+        </div>
+
+        <div class="mx-lg-1 px-lg-1 mx-md-3 px-md-3 mx-sm-2 px-sm-2 pt-2 d-flex flex-column justify-content-between"
+          style="height: 100%">
+          <div class="text-center mt-5 pt-5 d-none d-md-block">
+            <img src="~/SRS Screen Shorts/logo.png" class="img-fluid" alt="Image Not Available" />
+          </div>
+          <div class="form1 ">
+            <form class="mb-3 inerform">
+              <div class="mb-4 d-grid ">
+                <button onclick="location.href='@Url.Action("Submit_request", "Home" )'" type="button"
+                  class="btn btn-primary" style="background-color: rgb(0, 204, 255); height: 60px;">
+                  Submit A Request
+                </button>
+              </div>
+              <div class="mb-4 pt-4 d-grid ">
+                <button onclick="location.href='@Url.Action("Patientlogin", "Home" )'" type="button"
+                  class="btn btn-primary" style="background-color: rgb(0, 13, 131);height: 60px;">
+                  Registered Patients
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="mb-3 pt-lg-2 d-flex justify-content-center">
+            <a href="#" class="text-secondary mx-2" style="text-decoration: none">Terms of Condition
+            </a>
+            <span>|</span>
+            <a href="#" class="text-secondary mx-2" style="text-decoration: none">
+              Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="~/js/site.js" asp-append-version="true"></script>

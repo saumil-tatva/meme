@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Submit Request";
+}
+<link rel="stylesheet" href="~/css/submit_req.css" asp-append-version="true" />
+
+<partial name="_Header" />
+<div class="container-fluid maincont mt-4">
+  <div class="bbtn">
+    <button
+      type="button"
+      class="btn btn-outline-primary bibtn"
+        onclick="location.href='@Url.Action("Patient_site", "Home" )'"
+    >
+      < Back
+    </button>
+  </div>
+  <div class="justify-content-between">
+    <h1 style="text-align: center">I am a...</h1>
+  </div>
+  <div class="form-floating">
+    <div class="mb-4 pt-4 d-grid" style="width: 330px; margin: auto">
+      <button
+        type="submit"
+        class="clbtn clbtn1 mb-3"
+        onclick="location.href='@Url.Action("Create_pat_req", "Patient" )'"
+        style="
+          background-color: rgba(109, 66, 227, 0.1);
+          border: 1px solid #6d42e3;
+          color: #6d42e3;
+        "
+      >
+        <h4>PATIENT</h4>
+      </button>
+      <button
+        type="submit"
+        onclick="location.href='@Url.Action("Create_family_req", "Patient" )'"
+        class="clbtn2 clbtn mb-3"
+        style="
+          background-color: rgba(92, 196, 237, 0.1);
+          border: 1px solid #05b8ff;
+          color: #05b8ff;
+        "
+      >
+        <h4>FAMILY/FRIEND</h4>
+      </button>
+      <button
+        type="submit"
+        class="clbtn3 clbtn mb-3"
+        onclick="location.href='@Url.Action("Create_concierge_req", "Patient" )'"
+        style="
+          background-color: rgba(17, 209, 158, 0.1);
+          border: 1px solid #0d9e77;
+          color: #0d9e77;
+        "
+      >
+        <h4>CONCIERGE</h4>
+      </button>
+      <button
+        type="submit"
+        onclick="location.href='@Url.Action("Create_business_req", "Patient" )'"
+        class="clbtn4 clbtn mb-3"
+        style="
+          background-color: rgba(232, 16, 203, 0.1);
+          border: 1px solid #e810cb;
+          color: #e810cb;
+        "
+      >
+        <h4>BUSINESS PARTNERS</h4>
+      </button>
+    </div>
+  </div>
+</div>
+<partial name="_Footer" />
+
+<script src="~/js/site.js" asp-append-version="true"></script>

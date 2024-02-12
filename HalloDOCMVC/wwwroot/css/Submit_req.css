@@ -1,0 +1,47 @@
+.maincont {
+  position: relative;
+}
+
+.bbtn {
+  position: absolute;
+  right: 15%;
+  top: 2px;
+}
+.bibtn {
+  border-color: aqua !important;
+  color: aqua !important;
+}
+.clbtn {
+  height: 60px;
+  border-radius: 10px;
+}
+.dmbtn {
+  height: 35px;
+  width: 30px;
+}
+
+.clbtn1:hover{
+  background-color: rgba(109, 66, 227,0.4)!important;
+}
+.clbtn2:hover{
+  background-color: rgba(92, 196, 237,0.4)!important;
+}
+.clbtn3:hover{
+  background-color: rgba(17, 209, 158,0.4)!important;
+}
+.clbtn4:hover{
+  background-color: rgba(232, 16, 203,0.4)!important;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color: rgb(44, 43, 43);
+}
+.tnc {
+  right: 0px;
+  justify-content: end;
+  height: 40px;
+  color: white;
+}

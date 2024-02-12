@@ -1,0 +1,88 @@
+@{
+    ViewData["Title"] = "patient Forgot Password";
+}
+<link rel="stylesheet" href="~/css/Patientlogin.css" asp-append-version="true" />
+<div class="container-fluid">
+  <div
+    class="mx-lg-1 px-lg-1 mx-md-3 px-md-3 mx-sm-2 px-sm-2 pt-2 d-flex flex-column justify-content-between"
+    style="height: 100vh"
+  >
+    <div class="dmode">
+      <button
+        onclick="toggleDarkTheme()"
+        type="button"
+        class="mt-4 mx-4"
+        id="colorButton"
+        style="border-radius: 17px; border-color: aqua">
+        <i id="moon" class="bi bi-moon text-info fs-4"></i>
+        <i id="sun" class="bi bi-sun text-info fs-4 d-none"></i>
+      </button>
+    </div>
+
+    <div class="form1 demo-wrap">
+      <img
+      class="demo-bg"
+      src="~/SRS Screen Shorts/cropbg.jpg"
+      alt=""
+    />
+      <div class=" mb-3" style="width: 350px;">
+
+        <div class="text-center logo mt-2 pt-5">
+          <img
+            src="~/SRS Screen Shorts/logo.png"
+            class="img-fluid"
+            alt="Image Not Available"
+          />
+        </div>
+        <div class="demo-content mt-5 mb-5 pb-5">
+          <h2 class="mb-3 text-center mt-4 mb-4">
+            Reset Your Password
+          </h2>
+          <div class="mb-4 form-floating">
+            <input
+              type="text"
+              class="form-control inputs"
+              placeholder="Username"
+              id="exampleInputUsername"
+            />
+            <label for="exampleInputUsername" class="innertext small"
+              >Username</label
+            >
+            <button class="btn show-password" type="button">
+              <img
+                src="~/SRS Screen Shorts/person-circle-outline.svg"
+                alt="password"
+              />
+            </button>
+          </div>
+          <div class="mb-4 pt-4 d-grid">
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="background-color: aqua"
+            >
+              Reset Password
+            </button>
+          </div>
+          <div class="mb-4 text-center">
+            <a
+              asp-controller="Home" asp-action="Patientlogin"
+              class="text-primary"
+              style="text-decoration: none; color: aqua !important"
+              > < Back To Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mb-3 pt-lg-2 d-flex footer justify-content-center">
+      <a href="#" class="text-secondary mx-2" style="text-decoration: none"
+        >Terms of Condition
+      </a>
+      <span>|</span>
+      <a href="#" class="text-secondary mx-2" style="text-decoration: none">
+        Privacy Policy</a
+      >
+    </div>
+  </div>
+</div>
+<script src="~/js/site.js" asp-append-version="true"></script>

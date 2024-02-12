@@ -1,0 +1,135 @@
+/* body {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.defaultColor {
+  background-color: white !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.changedColor {
+  background-color: rgb(44, 43, 43) !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.bbtn {
+  position: absolute;
+  right: 15%;
+  top: 2px;
+}
+.bibtn {
+  border-color: aqua !important;
+  color: aqua !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ion-icon {
+  color: white;
+  height: 30px;
+  padding-right: 10px;
+}
+.intext{
+  color: gray!important;
+}
+
+.dmbtn {
+  height: 35px;
+  width: 30px;
+}
+.foot {
+  bottom: 0%;
+  width: 100%;
+  background-color: rgb(44, 43, 43);
+}
+.tnc {
+  justify-content: end;
+  height: 40px;
+  color: white;
+}
+
+.maincont {
+  position: relative;
+}
+.clbtn {
+  height: 60px;
+  border-radius: 10px;
+}
+
+.mainform {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bbtn {
+  position: absolute;
+  right: 17%;
+  top: 117px;
+  z-index: 10;
+}
+.bibtn {
+  border-color: aqua !important;
+  color: aqua !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.iti{
+  display: block;
+}
+input[type = 'file']{
+  display:none;
+}
+.iti__country-list{
+  z-index: 10;
+}
+.pop-up{
+  transform: translate(-50%,-50%)!important;
+  left: 50%!important;
+  top: 50%!important;
+  width: 450px!important;
+  height: 400px!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  border-radius: 10px;
+}
+
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.font-size{
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+
+.offcanvas-body{
+  flex-grow: 0;
+  
+}
+
+.btn7{
+  border: none;
+  background-color: rgb(14, 201, 248);
+  color: white;
+  width: 50px;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2{
+  width: 80px; 
+  height: 80px;
+}
